@@ -21,5 +21,9 @@ dev = [
     "network-security",
 ]
 
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [tool.uv.sources]
 network-security = { workspace = true }
+    
