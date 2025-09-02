@@ -1,0 +1,8 @@
+[2025-09-02 15:35:23,157] 16 root - INFO - Initiate the data ingestion
+[2025-09-02 15:35:23,158] 30 root - INFO - Reading data from local CSV file: NetworkData/data.csv
+[2025-09-02 15:35:23,173] 36 root - INFO - Successfully loaded data with shape: (11055, 31)
+[2025-09-02 15:35:23,213] 60 root - INFO - Performed train test split on the dataframe
+[2025-09-02 15:35:23,213] 61 root - INFO - Exited split_data_as_train_test method
+[2025-09-02 15:35:23,213] 65 root - INFO - Exporting train and test file path
+[2025-09-02 15:35:23,247] 72 root - INFO - Exported train and test file path
+[2025-09-02 15:35:23,248] 18 root - INFO - Data initialization complete.

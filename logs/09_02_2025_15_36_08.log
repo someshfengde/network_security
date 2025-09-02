@@ -1,0 +1,31 @@
+[2025-09-02 15:36:09,846] 16 root - INFO - Initiate the data ingestion
+[2025-09-02 15:36:09,847] 30 root - INFO - Reading data from local CSV file: NetworkData/data.csv
+[2025-09-02 15:36:09,867] 36 root - INFO - Successfully loaded data with shape: (11055, 31)
+[2025-09-02 15:36:09,910] 60 root - INFO - Performed train test split on the dataframe
+[2025-09-02 15:36:09,910] 61 root - INFO - Exited split_data_as_train_test method
+[2025-09-02 15:36:09,910] 65 root - INFO - Exporting train and test file path
+[2025-09-02 15:36:09,942] 72 root - INFO - Exported train and test file path
+[2025-09-02 15:36:09,943] 18 root - INFO - Data initialization complete.
+[2025-09-02 15:36:09,945] 24 root - INFO - Initiate the data validation
+[2025-09-02 15:36:09,956] 31 root - INFO - Required number of columns: 5
+[2025-09-02 15:36:09,956] 32 root - INFO - Dataframe has 31 columns
+[2025-09-02 15:36:09,956] 31 root - INFO - Required number of columns: 5
+[2025-09-02 15:36:09,956] 32 root - INFO - Dataframe has 31 columns
+[2025-09-02 15:36:10,041] 26 root - INFO - Data validation completed.
+[2025-09-02 15:36:10,041] 30 root - INFO - Data transformation initiated
+[2025-09-02 15:36:10,041] 47 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-09-02 15:36:10,041] 49 root - INFO - Starting Data Transformation
+[2025-09-02 15:36:10,053] 37 root - INFO - Entered get_data_transformer_object method of transformation class
+[2025-09-02 15:36:10,053] 40 root - INFO - Initialize KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-09-02 15:36:10,058] 49 root - INFO - Entered the save_object method of MainUtils class
+[2025-09-02 15:36:10,059] 53 root - INFO - Existed the save_object method of MainUtils class
+[2025-09-02 15:36:10,059] 49 root - INFO - Entered the save_object method of MainUtils class
+[2025-09-02 15:36:10,061] 53 root - INFO - Existed the save_object method of MainUtils class
+[2025-09-02 15:36:10,061] 34 root - INFO - Data transformation completed.
+[2025-09-02 15:36:10,061] 38 root - INFO - Model training started
+[2025-09-02 15:36:21,784] 49 root - INFO - Entered the save_object method of MainUtils class
+[2025-09-02 15:36:21,788] 53 root - INFO - Existed the save_object method of MainUtils class
+[2025-09-02 15:36:21,788] 49 root - INFO - Entered the save_object method of MainUtils class
+[2025-09-02 15:36:21,796] 53 root - INFO - Existed the save_object method of MainUtils class
+[2025-09-02 15:36:21,796] 115 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/09_02_2025_15_36_08/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9968076616121309, precision_score=0.9968076616121309, recall_score=0.9968076616121309), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9968076616121309, precision_score=0.9968076616121309, recall_score=0.9968076616121309))
+[2025-09-02 15:36:21,796] 42 root - INFO - Model training complete

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/somesh/Downloads/code/network_security/mlruns/0/b435c4bc1f59420a8bba249537a64c6a/artifacts
+end_time: 1756807580124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b435c4bc1f59420a8bba249537a64c6a
+run_name: fortunate-rook-571
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756807578007
+status: 3
+tags: []
+user_id: somesh
